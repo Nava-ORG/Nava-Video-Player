@@ -332,6 +332,7 @@ button:hover
     padding: 5px 10px;
     font-size: 15px;
     transition: all 0.5s;
+    font-family: YekanBakh, serif;
 }
 
 .fileChooser:hover
@@ -354,11 +355,12 @@ button:hover
     align-items: center;
     margin: auto;
     text-align: right;
+    font-family: YekanBakh, serif;
 }
 
 .enterLink:focus
 {
-  border: none;
+    border: none;
     outline: none;
 }
 .error

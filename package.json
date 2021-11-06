@@ -1,7 +1,7 @@
 {
   "name": "nava-video-player",
   "productName": "Nava Video Player",
-  "description": "First iranian video player with DisocrdRPC",
+  "description": "First iranian video player with Disocrd-RPC",
   "homepage": "https://github.com/Nava-ORG/Nava-Video-Player#readme",
   "version": "1.0.0",
   "main": "./app/app.service.js",
@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "check-internet-connected": "^2.0.5",
     "discord-rpc": "^4.0.1",
-    "electron": "^15.3.0",
+    "electron": "^9.1.2",
     "electron-builder": "^22.13.1"
   },
   "devDependencies": {
