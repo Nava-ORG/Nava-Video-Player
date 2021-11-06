@@ -1,7 +1,7 @@
 {
   "name": "nava-video-player",
   "productName": "Nava Video Player",
-  "description": "First iranian video player with Disocrd-RPC",
+  "description": "First iranian video player with DisocrdRPC",
   "homepage": "https://github.com/Nava-ORG/Nava-Video-Player#readme",
   "version": "1.0.0",
   "main": "./app/app.service.js",
