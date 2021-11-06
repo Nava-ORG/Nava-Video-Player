@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="fa">
+<head>
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel='stylesheet' href='../layout/player.css'/>
+    <script src='../lib/player.container.js'></script>
+    <title>Nava Video Player</title>
+</head>
+
+<body>
+
+<section id='playerContainer' class='player paused'>
+
+    <video id='videoContainer' class='video'></video>
+
+    <div id='controlContainer' class='controls'>
+
+        <button id='play' class='play fas fa-play'></button>
+        <button id='pause' class='hide pause fas fa-pause'></button>
+
+        <progress id='progressBarID' class='progress'></progress>
+        <div id='count' class='count'></div>
+
+        <button id='mute' class='fas fa-volume-mute mute'></button>
+        <button id='volume' class='fas fa-volume-up volume'></button>
+        <label for='volRange'></label>
+        <input
+                type='range'
+                id='volRange'
+                class='volRange hide'
+                max=1
+                min=0
+                step=0.05
+        />
+
+        <button id='toggle-on' class='fas fa-toggle-on toggle'></button>
+        <button id='toggle-off' class='fas fa-toggle-off toggle hide'></button>
+
+        <button id='fullScreen' class='fas fa-expand-arrows-alt fullScreen lastIcon'></button>
+        <button id='smallScreen' class='fas fa-compress-arrows-alt smallScreen lastIcon'></button>
+
+    </div>
+
+    <div class="dropAreaParent">
+
+        <section id='dropArea' class='dropArea'>
+
+            <div class="dropAreaC">
+                <div class='dropZone'>
+                    پخش فایل تصویری
+                </div>
+                <button id='fileChooser' class='fileChooser'>
+                    انتخاب فایل
+                </button>
+                <input
+                        type='file'
+                        accept="video/*"
+                        id='chooseVideo'
+                        class='chooseVideo hide'
+                />
+            </div>
+
+        </section>
+
+        <section id='dropArea-2' class='dropArea'>
+
+            <div class="dropAreaC">
+                <div class='dropZone'>
+                    پخش ویدیو از لینک
+                </div>
+                <label for='enterLink'></label>
+                <input
+                        type='text'
+                        id='enterLink'
+                        class='enterLink'
+                        placeholder='آدرس یا لینک'
+                />
+            </div>
+
+        </section>
+
+    </div>
+
+    <section id='error' class='error hide hidden'>
+        <h1 id='errorMessage'></h1>
+    </section>
+
+    <div class="tabBarButton">
+        <button id='window' onClick="minimize()" class='window'></button>
+        <button id='minimize' onClick="maximize()" class='minimize'></button>
+        <button id='close' class='close'></button>
+    </div>
+
+</section>
+
+
+</body>
+</html>

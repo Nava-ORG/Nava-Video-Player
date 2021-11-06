@@ -1,0 +1,398 @@
+:root
+{
+    --primary: #4356ff;
+    --primary-light: #6373ff;
+    --primary-shadow: rgba(99, 115, 255, 0.45);
+    --primary-dark: #2a40ee;
+    --primary-lighter: #7d8bff;
+    --primary-darker: #2133bd;
+
+    --primary-secondary: #1b1c22;
+    --primary-secondary-50: rgba(15, 15, 19, 0.7);
+    --primary-secondary-2: #191a1f;
+    --primary-secondary-3: #202128;
+    --primary-secondary-4: rgba(15, 15, 16, 0.85);
+}
+
+@font-face
+{
+    font-family:"YekanBakh";
+    src: url("../font/Yekan Bakh EN 05 Medium.ttf") format("truetype");
+}
+
+html,
+body
+{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    color:rgb(180,180,180);
+    -webkit-user-select: none;
+    font-family: YekanBakh, ubuntu, helvetica, arial, serif;
+}
+
+body *
+{
+    position:relative;
+    cursor:default;
+}
+
+input[type='text']
+{
+    cursor: text;
+}
+
+input
+{
+    border:none;
+}
+
+.player
+{
+    background: var(--primary-secondary);
+    height:100%;
+    width:100%;
+}
+.player.fullScreened
+{
+    background: black;
+}
+
+.draggable
+{
+    -webkit-app-region: drag;
+}
+
+.video
+{
+    width:100%;
+    height:100%;
+}
+
+.tabBarButton
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background: var(--primary-secondary-3);
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+button
+{
+    -webkit-app-region: no-drag;
+    transition: color 300ms;
+    outline:none;
+    cursor: pointer;
+    color:rgb(180,180,180);
+    border:none;
+    background:transparent;
+    margin:0;
+    padding:5px;
+    font-size:20px;
+    width:5%;
+    overflow: hidden;
+}
+
+button:hover
+{
+    color:rgb(255,255,255);
+}
+
+.close
+{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #ff3939;
+    transition: all 0.5s;
+}
+.close:hover
+{
+    background: #c41414;
+}
+
+.minimize
+{
+    margin: 0 8px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #ffc24f;
+    transition: all 0.5s;
+}
+.minimize:hover
+{
+    background: #b47f1d;
+}
+
+.window
+{
+    text-align: right;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #a0ff6c;
+    transition: all 0.5s;
+}
+.window:hover
+{
+    background: #49961e;
+}
+
+
+.lastIcon
+{
+    margin-right: 15px;
+}
+
+.controls
+{
+    display: flex;
+    z-index: 10000000000000000;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 13px;
+    opacity:0;
+    transition:opacity 600ms ease-in;
+    background: var(--primary-secondary-4);
+    -webkit-app-region: no-drag;
+    height: 65px;
+    width: 97% !important;
+    border-radius: 12px;
+}
+
+.player.paused .close,
+.player.paused .minimize,
+.player.paused .window,
+.close:hover,
+.minimize:hover,
+.window:hover,
+.player.paused .controls,
+.controls:hover{
+    opacity:1;
+}
+
+.mute,
+.volume
+{
+    width:30px;
+}
+
+.player.muted .mute
+{
+    color:rgb(210,210,255);
+}
+
+.player.muted .volume
+{
+    color:rgb(90,90,90);
+}
+
+.fullScreen{
+    text-align: right;
+}
+
+.smallScreen{
+    text-align: right;
+    display: none;
+}
+
+.player.fullScreened .smallScreen{
+    display: inline-block;
+}
+
+.player.fullScreened .fullScreen
+{
+    display: none;
+}
+
+.progress
+{
+    margin: auto;
+    width:calc(90% - 100px);
+    -webkit-appearance: none;
+    height: 8px;
+}
+
+.progress::-webkit-progress-bar
+{
+    background-color: var(--primary-secondary-3);
+    border-radius: 3px;
+    opacity: .8;
+}
+
+.progress::-webkit-progress-value
+{
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0 0 8px var(--primary-shadow);
+    opacity: .9;
+}
+
+.count
+{
+    position: absolute;
+    left: calc(5% + 2px);
+    font-size: 15px;
+    top: 6px;
+}
+
+.volRange
+{
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+    width: calc(5% + 60px);
+}
+
+.hidden
+{
+    opacity:0;
+}
+
+.dropAreaParent
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: var(--primary-secondary-50);
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+}
+.dropArea
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:160px;
+    overflow:hidden;
+    border-radius:20px;
+    padding:10px;
+    background: var(--primary-secondary-2);
+    transition: opacity 500ms ease-out,
+        border-radius 300ms,
+        background-color 300ms;
+    -webkit-app-region: no-drag;
+    margin: 20px;
+}
+
+.dropAreaC
+{
+    width: 100%;
+    height: 100%;
+}
+
+.dropZone
+{
+    font-weight: bold;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto 50px;
+    pointer-events: none;
+    font-size: 25px;
+}
+
+.dropArea.droppableArea
+{
+    border-radius:5px;
+    border-color:rgba(180,220,180,.7);
+    background:rgba(20,50,20,.7);
+}
+
+.fileChooser
+{
+    font-weight: bold;
+    height: 45px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background: var(--primary);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.fileChooser:hover
+{
+    box-shadow: 0 0 15px 0 var(--primary-shadow);
+    background: var(--primary-light);
+}
+
+.enterLink
+{
+    height: 25px;
+    width:calc(75% - 10px);
+    background: var(--primary-secondary-3);
+    color: rgb(250, 250, 250);
+    border-radius: 15px;
+    font-size:15px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: right;
+}
+
+.enterLink:focus
+{
+  border: none;
+    outline: none;
+}
+.error
+{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(50, 64, 100, 0.7);
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    transition:opacity 300ms;
+}
+
+.error h1{
+    position:absolute;
+    top:calc(50% - 75px);
+    left:0;
+    height:150px;
+    width:100%;
+    line-height: 150px;
+    background: rgba(150, 162, 200, 0.9);
+    font-size:55px;
+    text-align: center;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    text-shadow: 0 0 3px rgb(0,0,0);
+    box-shadow: 0 0 10px rgb(0,0,0);
+    cursor: pointer;
+}
+
+.hide
+{
+    display:none;
+}
