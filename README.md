@@ -21,7 +21,7 @@ Nava Video Player
 <br/>
 <br/>
 
-# 📊 Repo Stats
+## 📊 Repo Stats
 
 <p align="left">
     <img src="https://img.shields.io/github/release/Nava-ORG/nava-video-player.svg" alt="release">
@@ -33,8 +33,18 @@ Nava Video Player
 
 <br/>
 
-## 🤝 Contributing
+## 📹 Known Supported Video Types
+- mp4
+- webm
+- ogg
+- mov (MPEG4 | H.264)
+- avi (MPEG4 | H.264)
+- mkv (MPEG4 | H.264)
+- m4v (MPEG4 | H.264)
 
+<br/>
+
+## 🤝 Contributing
 1. [Fork the repository](https://github.com/Nava-ORG/nava-video-player/fork)
 2. Clone your fork: `git clone https://github.com/your-username/nava-video-player.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
@@ -47,7 +57,6 @@ Nava Video Player
 # 🌟 Spread the word!
 
 If you want to say thank you and/or support active development of the Nava app:
-
 - Add a GitHub Star to the project!
 - Buy me a coffee [idpay.ir](https://idpay.ir/nava-donate).
 - Join our discord servers [sosis](https://discord.gg/4zY83B9GnZ) & [paraffin](https://discord.com/invite/RUrks4JqW6).
