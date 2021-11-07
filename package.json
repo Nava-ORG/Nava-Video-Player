@@ -8,9 +8,8 @@
   "main": "./app/app.service.js",
   "author": "nava",
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "start": "electron .",
+    "package": "npx electron-packager ./ Nava-Video-Player --platform=all --arch=all --icon=./app/img/icon.png"
   },
   "url": "https://github.com/Nava-ORG/Nava-Video-Player",
   "funding": {
@@ -25,7 +24,8 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "check-internet-connected": "^2.0.5",
     "discord-rpc": "^4.0.1",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "fortawesome": "^0.0.1-security"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.61",
