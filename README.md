@@ -24,8 +24,8 @@ Nava Video Player
 # 📊 Repo Stats
 
 <p align="left">
-    <img src="https://img.shields.io/github/realese/Nava-ORG/nava-video-player.svg" alt="realese">
-    <img src="https://img.shields.io/github/downloads/Nava-ORG/nava-video-player.svg" alt="downloads">
+    <img src="https://img.shields.io/github/release/Nava-ORG/nava-video-player.svg" alt="release">
+    <img src="https://img.shields.io/github/downloads/Nava-ORG/nava-video-player/total.svg" alt="downloads">
     <img src="https://img.shields.io/github/forks/Nava-ORG/nava-video-player.svg" alt="forks">
     <img src="https://img.shields.io/github/stars/Nava-ORG/nava-video-player.svg" alt="stars">
     <img src="https://img.shields.io/github/watchers/Nava-ORG/nava-video-player.svg" alt="watchers">
