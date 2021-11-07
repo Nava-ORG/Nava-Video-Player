@@ -44,7 +44,7 @@ Nava Video Player
 
 <br/>
 
-# Shortcuts
+# 🎹 Shortcuts
 |key|action|
 |---|---|
 |space|toggle play/pause|
