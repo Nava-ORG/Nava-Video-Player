@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="https://cdn.discordapp.com/attachments/776425421968244768/906659482996707358/logo.png" width="224px" alt="Nava Video Player"/>
 <br/>
@@ -54,7 +53,7 @@ If you want to say thank you and/or support active development of the Nava app:
 - Join our discord servers [sosis](https://discord.gg/4zY83B9GnZ) & [paraffin](https://discord.com/invite/RUrks4JqW6).
 - Follow our team profiles [im-parsa](https://github.com/im-parsa) & [hadi-az](https://github.com/hadiazt)
 
-Thanks so much for your interest in growing the reach of the Well app!
+Thanks so much for your interest in growing the reach of the Nava app!
 
 <br/>
 
