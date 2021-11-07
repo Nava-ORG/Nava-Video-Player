@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/Nava-ORG/nava-video-player/main/app/img/logo.png?token=AQRWNLKR5BKKTHYU4LAWJSTBQ3YK4" width="224px" alt="Nava Video Player"/>
+  <img src="https://cdn.discordapp.com/attachments/776425421968244768/906659482996707358/logo.png" width="224px" alt="Nava Video Player"/>
 <br/>
 Nava Video Player
 </h1>
@@ -24,11 +24,41 @@ Nava Video Player
 # 📊 Repo Stats
 
 <p align="left">
-    <img height="20px" src="https://img.shields.io/github/realese/Nava-ORG/nava-video-player.svg" alt="ir">
-    <img height="20px" src="https://img.shields.io/github/downloads/Nava-ORG/nava-video-player.svg" alt="ir">
-    <img height="20px" src="https://img.shields.io/github/forks/Nava-ORG/nava-video-player.svg" alt="ir">
-    <img height="20px" src="https://img.shields.io/github/stars/Nava-ORG/nava-video-player.svg" alt="ir">
-    <img height="20px" src="https://img.shields.io/github/watchers/Nava-ORG/nava-video-player.svg" alt="ir">
+    <img src="https://img.shields.io/github/realese/Nava-ORG/nava-video-player.svg" alt="realese">
+    <img src="https://img.shields.io/github/downloads/Nava-ORG/nava-video-player.svg" alt="downloads">
+    <img src="https://img.shields.io/github/forks/Nava-ORG/nava-video-player.svg" alt="forks">
+    <img src="https://img.shields.io/github/stars/Nava-ORG/nava-video-player.svg" alt="stars">
+    <img src="https://img.shields.io/github/watchers/Nava-ORG/nava-video-player.svg" alt="watchers">
 </p>
 
 <br/>
+
+## 🤝 Contributing
+
+1. [Fork the repository](https://github.com/Nava-ORG/nava-video-player/fork)
+2. Clone your fork: `git clone https://github.com/your-username/nava-video-player.git`
+3. Create your feature branch: `git checkout -b my-new-feature`
+4. Commit your changes: `git commit -am 'Add some feature'`
+5. Push to the branch: `git push origin my-new-feature`
+6. Submit a pull request
+
+<br/>
+
+# 🌟 Spread the word!
+
+If you want to say thank you and/or support active development of the Well app:
+
+- Add a GitHub Star to the project!
+- Buy me a coffee [idpay.ir](https://idpay.ir/nava-donate).
+- Join our discord servers [sosis](https://idpay.ir/nava-donate).
+- Follow our team profiles [im-parsa](https://github.com/im-parsa) & [hadi-az](https://github.com/hadiazt)
+
+Thanks so much for your interest in growing the reach of the Well app!
+
+<br/>
+
+# ⚠️ License
+
+The Nava app is free and open-source software licensed under the MIT General Public License v3.0. All designs were created by [im-parsa](https://github.com/im-parsa) & [hadi-az](https://github.com/hadiazt).
+
+<br />
