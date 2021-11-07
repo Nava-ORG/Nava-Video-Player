@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Nava-ORG/Nava-Video-Player#readme",
   "version": "1.0.0",
   "main": "./app/app.service.js",
-  "author": "im-parsa",
+  "author": "nava",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/npm/Nava-ORG-Video-Player"
+    "url": "https://github.com/npm/Nava-ORG/Nava-Video-Player"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
