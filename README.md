@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <img src="https://cdn.discordapp.com/attachments/776425421968244768/906659482996707358/logo.png" width="224px" alt="Nava Video Player"/>
 <br/>
@@ -46,7 +47,7 @@ Nava Video Player
 
 # 🌟 Spread the word!
 
-If you want to say thank you and/or support active development of the Well app:
+If you want to say thank you and/or support active development of the Nava app:
 
 - Add a GitHub Star to the project!
 - Buy me a coffee [idpay.ir](https://idpay.ir/nava-donate).
