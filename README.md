@@ -18,7 +18,7 @@ Nava Video Player
 </p>
 
 <br/>
-<hr/>
+<br/>
 <br/>
 
 # 📊 Repo Stats
