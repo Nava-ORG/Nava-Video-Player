@@ -44,6 +44,15 @@ Nava Video Player
 
 <br/>
 
+# Shortcuts
+|key|action|
+|---|---|
+|space|toggle play/pause|
+|enter|toggle play/pause|
+|esc|exit fullscreen|
+
+<br/>
+
 ## 🤝 Contributing
 1. [Fork the repository](https://github.com/Nava-ORG/nava-video-player/fork)
 2. Clone your fork: `git clone https://github.com/your-username/nava-video-player.git`
