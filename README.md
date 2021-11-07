@@ -50,7 +50,7 @@ If you want to say thank you and/or support active development of the Well app:
 
 - Add a GitHub Star to the project!
 - Buy me a coffee [idpay.ir](https://idpay.ir/nava-donate).
-- Join our discord servers [sosis](https://idpay.ir/nava-donate).
+- Join our discord servers [sosis](https://discord.gg/4zY83B9GnZ) & [paraffin](https://discord.com/invite/RUrks4JqW6).
 - Follow our team profiles [im-parsa](https://github.com/im-parsa) & [hadi-az](https://github.com/hadiazt)
 
 Thanks so much for your interest in growing the reach of the Well app!
